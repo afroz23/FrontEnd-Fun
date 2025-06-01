@@ -1,0 +1,33 @@
+html,
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#root {
+	width: 100vw;
+	min-height: 100vh;
+	overflow-y: auto; /* Enable vertical scrolling */
+	box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+
+body {
+	margin: 0;
+	display: flex;
+	align-items: center; /* Use align-items instead of place-items for better compatibility */
+	justify-content: center; /* Center content horizontally */
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	width: 0.4rem;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 0.25rem;
+}

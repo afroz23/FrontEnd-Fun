@@ -1,0 +1,23 @@
+@use '@/assets/styles/mixins';
+
+.header-container {
+	@include mixins.flex-center-column;
+}
+.form-container {
+	margin-top: 2rem;
+	width: 24rem;
+}
+.header {
+	@include mixins.flex-center;
+	margin-bottom: 6rem;
+}
+
+.header-title {
+	margin: 0 !important;
+}
+
+.login-btn {
+	margin-top: 0.5rem;
+	height: 2.5rem;
+	width: 100%;
+}

@@ -1,0 +1,25 @@
+.App {
+	display: flex;
+	width: 70vw;
+}
+
+.sidebar {
+	width: 200px;
+	padding: 10px;
+	border-right: 1px solid #ccc;
+}
+
+.node {
+	padding: 10px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+
+.div-scroll{
+	margin-top: 1rem;
+	background-color: grey;
+	height: 100px;
+	width: 100px;
+	overflow-y: scroll;
+}
